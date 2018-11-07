@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 109529677}
   - component: {fileID: 109529676}
   - component: {fileID: 109529675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2641,11 +2641,6 @@ Prefab:
     - target: {fileID: 4269847252206268, guid: 86b4aee6a687b7a43ae49c0711d1ed30, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114370953008558840, guid: 86b4aee6a687b7a43ae49c0711d1ed30,
-        type: 2}
-      propertyPath: jumpSpeed
-      value: 28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86b4aee6a687b7a43ae49c0711d1ed30, type: 2}
