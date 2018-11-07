@@ -9,50 +9,50 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1286883641237110}
+  m_RootGameObject: {fileID: 1271328414270204}
   m_IsPrefabParent: 1
---- !u!1 &1286883641237110
+--- !u!1 &1271328414270204
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4269847252206268}
-  - component: {fileID: 95210230856954598}
-  - component: {fileID: 212257828539472494}
-  - component: {fileID: 50335754868983516}
-  - component: {fileID: 70737508475543264}
-  - component: {fileID: 114370953008558840}
-  - component: {fileID: 61111562355178816}
-  m_Layer: 10
-  m_Name: Player
+  - component: {fileID: 4935378777832364}
+  - component: {fileID: 212985968136314072}
+  - component: {fileID: 50924091823923590}
+  - component: {fileID: 70458520327292156}
+  - component: {fileID: 95802038710500342}
+  - component: {fileID: 114937811562603806}
+  - component: {fileID: 61949000110197196}
+  m_Layer: 12
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4269847252206268
+--- !u!4 &4935378777832364
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1286883641237110}
+  m_GameObject: {fileID: 1271328414270204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.41, y: 3.04, z: 0}
+  m_LocalPosition: {x: 0, y: 1.391, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50335754868983516
+--- !u!50 &50924091823923590
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1286883641237110}
-  m_BodyType: 0
+  m_GameObject: {fileID: 1271328414270204}
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -63,58 +63,58 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
---- !u!61 &61111562355178816
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &61949000110197196
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1286883641237110}
+  m_GameObject: {fileID: 1271328414270204}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0042750835, y: 0}
+  m_Offset: {x: 0.31875026, y: -0.41129065}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.6875, y: 0.875}
-    newSize: {x: 0.75, y: 0.875}
+    oldSize: {x: 0.75, y: 0.75}
+    newSize: {x: 0.75, y: 0.625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.43954659, y: 0.875}
+  m_Size: {x: 0.08165264, y: 0.57358885}
   m_EdgeRadius: 0
---- !u!70 &70737508475543264
+--- !u!70 &70458520327292156
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1286883641237110}
+  m_GameObject: {fileID: 1271328414270204}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 53a448659e24f9147bc37bcb0ba4303a, type: 2}
-  m_IsTrigger: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.022849977, y: -0.02707541}
-  m_Size: {x: 0.5127009, y: 0.8241508}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.75, y: 0.75}
   m_Direction: 0
---- !u!95 &95210230856954598
+--- !u!95 &95802038710500342
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1286883641237110}
+  m_GameObject: {fileID: 1271328414270204}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 814c6d8ad682e1445be3837f0799968d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0bd84e33e55e86f479a9be89c86b6bec, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -123,27 +123,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114370953008558840
+--- !u!114 &114937811562603806
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1286883641237110}
+  m_GameObject: {fileID: 1271328414270204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1ae29bc08f9bef4b9c59107d5b41b2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b2253ac4ef86a7499c2466e81295db9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 5
-  jumpSpeed: 28
-  climbSpeed: 5
-  deathKick: {x: -11, y: 7}
---- !u!212 &212257828539472494
+  moveSpeed: 1
+--- !u!212 &212985968136314072
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1286883641237110}
+  m_GameObject: {fileID: 1271328414270204}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -170,15 +167,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 674745639
-  m_SortingLayer: 4
+  m_SortingLayerID: -1505574551
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: 582d85a0cf7611c43823cabb3ef001f7, type: 3}
+  m_Sprite: {fileID: 21300010, guid: 136b7534750c05b47898ca8b3e9fedbb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.75, y: 0.875}
+  m_Size: {x: 0.75, y: 0.625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
