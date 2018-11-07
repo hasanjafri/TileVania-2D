@@ -2607,15 +2607,15 @@ Prefab:
     - target: {fileID: 20986343972596664, guid: 483a793bc9654864b9063a501867728d,
         type: 2}
       propertyPath: orthographic size
-      value: 5.5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4092028516658130, guid: 483a793bc9654864b9063a501867728d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.7465687
+      value: -3.1120722
       objectReference: {fileID: 0}
     - target: {fileID: 4092028516658130, guid: 483a793bc9654864b9063a501867728d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.7015514
+      value: 1.1203221
       objectReference: {fileID: 0}
     - target: {fileID: 1729934957149486, guid: 483a793bc9654864b9063a501867728d, type: 2}
       propertyPath: m_IsActive
@@ -2627,7 +2627,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4092028516658130, guid: 483a793bc9654864b9063a501867728d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -9.960706
+      value: 0.03929439
       objectReference: {fileID: 0}
     - target: {fileID: 4216249264272650, guid: 483a793bc9654864b9063a501867728d, type: 2}
       propertyPath: m_LocalPosition.x
@@ -11779,21 +11779,6 @@ Prefab:
     - target: {fileID: 4269847252206268, guid: 86b4aee6a687b7a43ae49c0711d1ed30, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114370953008558840, guid: 86b4aee6a687b7a43ae49c0711d1ed30,
-        type: 2}
-      propertyPath: deathKick.x
-      value: -22
-      objectReference: {fileID: 0}
-    - target: {fileID: 114370953008558840, guid: 86b4aee6a687b7a43ae49c0711d1ed30,
-        type: 2}
-      propertyPath: deathKick.y
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 114370953008558840, guid: 86b4aee6a687b7a43ae49c0711d1ed30,
-        type: 2}
-      propertyPath: jumpSpeed
-      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86b4aee6a687b7a43ae49c0711d1ed30, type: 2}
