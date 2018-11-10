@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\LevelExit.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\ScenePersistence.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Unity2D/TileVania/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
